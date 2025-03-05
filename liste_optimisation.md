@@ -27,16 +27,14 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 
 ### Moyennement rapide à faire
 9. **Chargement asynchrone des scripts** :
-   - Utiliser `async` ou `defer` pour les scripts externes.
+   - Utiliser `async` ou `defer` pour les scripts externes. ✓
 
-10. **Attributs de sécurité pour les scripts** :
-    - Ajouter des attributs de sécurité comme `integrity` et `crossorigin` pour les scripts externes.
 
 11. **Balises de titre hiérarchiques** :
-    - Utiliser des balises de titre hiérarchiques (`<h1>`, `<h2>`, etc.) de manière appropriée pour structurer le contenu.
+    - Utiliser des balises de titre hiérarchiques (`<h1>`, `<h2>`, etc.) de manière appropriée pour structurer le contenu. ✓
 
 12. **Balises Open Graph et Twitter Cards** :
-    - Ajouter des balises Open Graph et Twitter Cards pour améliorer le partage sur les réseaux sociaux.
+    - Ajouter des balises Open Graph et Twitter Cards pour améliorer le partage sur les réseaux sociaux. ✓
 
 13. **Liens internes** :
     - Utiliser des liens internes pour améliorer la navigation et le SEO.
