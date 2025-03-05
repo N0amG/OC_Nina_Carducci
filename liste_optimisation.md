@@ -37,10 +37,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
     - Ajouter des balises Open Graph et Twitter Cards pour améliorer le partage sur les réseaux sociaux. ✓
 
 13. **Liens internes** :
-    - Utiliser des liens internes pour améliorer la navigation et le SEO.
-
-14. **Préchargement des ressources critiques** :
-    - Utiliser `<link rel="preload">` pour précharger les ressources critiques comme les polices et les scripts essentiels.
+    - Utiliser des liens internes pour améliorer la navigation et le SEO. ✓
 
 ### Plus compliqué à faire
 15. **Minification des fichiers CSS et JavaScript** :
