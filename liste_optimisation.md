@@ -14,7 +14,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
    - Ajouter une balise `<link rel="icon" href="path/to/favicon.ico">` pour inclure un favicon. ✓
 
 5. **Lazy loading des images** :
-   - Utiliser l'attribut `loading="lazy"` pour les images. ✓
+   - Utiliser l'attribut `loading="lazy"` pour les images. ✓ (annulé pour l'instant)
 
 6. **Labels pour les formulaires** :
    - Associer les labels des champs de formulaire aux champs via l'attribut `for`. ✓
@@ -40,8 +40,9 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
     - Utiliser des liens internes pour améliorer la navigation et le SEO. ✓
 
 ### Plus compliqué à faire
-15. **Minification des fichiers CSS et JavaScript** :
-    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement.
+
+20. **Utilisation de balises sémantiques** :
+    - Utiliser des balises HTML5 sémantiques comme `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, et `<footer>` pour améliorer la structure du document. ✓
 
 16. **Optimisation des images** :
     - Utiliser des formats modernes comme WebP et compresser les images pour réduire leur taille.
@@ -55,5 +56,6 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 19. **Suppression des CSS inutilisés** :
     - Supprimer les styles CSS non utilisés pour réduire la taille des fichiers CSS.
 
-20. **Utilisation de balises sémantiques** :
-    - Utiliser des balises HTML5 sémantiques comme `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, et `<footer>` pour améliorer la structure du document.
+
+15. **Minification des fichiers CSS et JavaScript** : (A faire en dernier)
+    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement. 
