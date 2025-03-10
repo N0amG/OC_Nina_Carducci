@@ -45,7 +45,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
     - Utiliser des balises HTML5 sémantiques comme `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, et `<footer>` pour améliorer la structure du document. ✓
 
 16. **Optimisation des images** :
-    - Utiliser des formats modernes comme WebP et compresser les images pour réduire leur taille.
+    - Utiliser des formats modernes comme WebP et compresser les images pour réduire leur taille. ✓
 
 17. **Utilisation de la mise en cache** :
     - Ajouter des en-têtes de cache pour les ressources statiques (CSS, JS, images).
