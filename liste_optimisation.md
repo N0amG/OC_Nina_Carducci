@@ -55,7 +55,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 
 17. **Corriger l'affichage des filtres** ✓
 
-18. **Minification des fichiers CSS et JavaScript** : (A faire en dernier)
+18. **Minification des fichiers CSS et JavaScript** :
     - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement.
 
 --------------------------------------------
