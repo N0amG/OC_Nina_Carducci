@@ -57,7 +57,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 21. **Suppressions des balises inutiles** :
     - <link> flaticon
 
-22. **Corriger l'affichage des filtres**
+22. **Corriger l'affichage des filtres**z
 
 18. **Combinaison des fichiers CSS et JS** :
     - Combiner les fichiers CSS et JS pour réduire le nombre de requêtes HTTP.
@@ -88,3 +88,5 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 
 - **Mise à jour de la source de l'image affichée**  
   Une fois le nouvel index déterminé, on met à jour la source de l'image de la lightbox avec l'attribut « src » de l'image correspondante dans le tableau.
+
+- **Amélioration de la navigation** (la modal n'était pas centrée)

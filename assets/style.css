@@ -282,6 +282,14 @@ footer {
 footer p {
 	margin-bottom: 0px;
 }
+
+.modal:not(.show) {
+    display: none !important;
+}
+.modal-dialog {
+	align-self: center;
+}
+
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2
