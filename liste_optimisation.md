@@ -47,15 +47,35 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 16. **Optimisation des images** :
     - Utiliser des formats modernes comme WebP et compresser les images pour réduire leur taille. ✓
 
-17. **Utilisation de la mise en cache** :
-    - Ajouter des en-têtes de cache pour les ressources statiques (CSS, JS, images).
+19. **Suppression des CSS inutilisés** :
+    - Supprimer les styles CSS non utilisés pour réduire la taille des fichiers CSS. ✓
 
 18. **Combinaison des fichiers CSS et JS** :
     - Combiner les fichiers CSS et JS pour réduire le nombre de requêtes HTTP.
 
-19. **Suppression des CSS inutilisés** :
-    - Supprimer les styles CSS non utilisés pour réduire la taille des fichiers CSS.
-
-
 15. **Minification des fichiers CSS et JavaScript** : (A faire en dernier)
-    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement. 
+    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement.
+
+
+
+--------------------------------------------
+
+
+**Rendre la navigation modale fonctionnelle**
+
+
+- **Initialisation de l’index à -1**  
+  La variable « index » est initialisée à -1 afin de détecter correctement l’index de l'image active dans le tableau (imagesCollection). Si l'image n'est pas trouvée, la fonction quitte sans rien faire.
+
+- **Recherche de l'image active**  
+  La boucle sur « imagesCollection » compare les sources des images pour trouver l'image actuellement affichée dans la lightbox et calcule son index.
+
+- **Calcul de l’index précédent et suivant avec "wrap-around"**  
+  Pour la navigation circulaire, l’index précédent est calculé avec la formule  
+  (index - 1 + imagesCollection.length) % imagesCollection.length  
+  et l’index suivant avec  
+  (index + 1) % imagesCollection.length.  
+  Cela permet de revenir de la première à la dernière image et inversement.
+
+- **Mise à jour de la source de l'image affichée**  
+  Une fois le nouvel index déterminé, on met à jour la source de l'image de la lightbox avec l'attribut « src » de l'image correspondante dans le tableau.
