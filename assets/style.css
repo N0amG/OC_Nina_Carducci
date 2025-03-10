@@ -87,7 +87,8 @@ body {
 }
 
 .nav li {
-	padding-inline: 10px
+	padding-inline: 10px;
+	cursor: pointer;
 }
 
 .nav a {

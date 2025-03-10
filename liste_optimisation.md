@@ -57,6 +57,8 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 21. **Suppressions des balises inutiles** :
     - <link> flaticon
 
+22. **Corriger l'affichage des filtres**
+
 18. **Combinaison des fichiers CSS et JS** :
     - Combiner les fichiers CSS et JS pour réduire le nombre de requêtes HTTP.
 
