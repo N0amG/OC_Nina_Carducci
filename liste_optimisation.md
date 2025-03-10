@@ -50,6 +50,13 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 19. **Suppression des CSS inutilisés** :
     - Supprimer les styles CSS non utilisés pour réduire la taille des fichiers CSS. ✓
 
+20. **Ajout du SEO local** :
+    - Ajouter les informations de SEO local
+    - Vérification avec Google Search Central
+
+21. **Suppressions des balises inutiles** :
+    - <link> flaticon
+
 18. **Combinaison des fichiers CSS et JS** :
     - Combiner les fichiers CSS et JS pour réduire le nombre de requêtes HTTP.
 

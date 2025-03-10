@@ -271,10 +271,16 @@ input[type=submit] {
 	padding: .5em 1em
 }
 
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	align-items: flex-end;
+}
+
 footer p {
 	margin-bottom: 0px;
 }
-
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2

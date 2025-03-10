@@ -19,7 +19,6 @@
 	<title>Nina Carducci</title>
 	<meta name="description" content="Photographe Professionnelle, je vous propose
 		une approche personnalisée pour vos photos de mariage, portrait, entreprise et concert.">
-	<link rel="icon" href="https://www.flaticon.com/fr/" title="Flaticon" />
 	<link rel="icon" href="./assets/images/favicon.webp" type="image/x-icon" />
 
 	<!-- Balises Open Graph -->
@@ -38,6 +37,53 @@
 	<meta name="twitter:image" content="https://n0amg.github.io/OC_Nina_Carducci/assets/images/nina.webp" />
 	<meta name="twitter:site" content="@NinaCarducci" />
 
+	<!-- Balises JSON-LD pour SEO local -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"image": "https://n0amg.github.io/OC_Nina_Carducci/assets/images/nina.webp",
+			"url": "https://n0amg.github.io/OC_Nina_Carducci/",
+			"telephone": "05 56 67 78 89",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"priceRange" : {
+				"@type": "PriceSpecification",
+				"minPrice": "50",
+				"maxPrice": "400"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "44.846613706448316",
+				"longitude": "-0.6065554973925275"
+			},
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"sameAs": [
+				"https://www.instagram.com/ninacarducci.photo/?hl=fr",
+				"https://www.facebook.com/NinaCarducciPhotographie",
+				"https://www.linkedin.com/in/ninacarducci"
+			]
+		}
+	</script>
 </head>
 
 <body>
@@ -250,8 +296,15 @@
 	</main>
 
 	<footer>
+		<div class="footer_contact">
+			<p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+			<p>Téléphone : 05 56 67 78 89</p>
+			<p>Horaires : Du lundi au vendredi de 10 h à 19 h</p>
+		</div>
 		<p>&copy; 2025 Nina Carducci. Tous droits réservés.</p>
 	</footer>
 </body>
+
+
 
 </html>
