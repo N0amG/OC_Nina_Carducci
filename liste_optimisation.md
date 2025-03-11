@@ -24,7 +24,7 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 
 ### Moyennement rapide à faire
 8. **Chargement asynchrone des scripts** :
-   - Utiliser `async` ou `defer` pour les scripts externes. ✓
+   - Utiliser `defer` pour les scripts externes. ✓
 
 9. **Balises de titre hiérarchiques** :
     - Utiliser des balises de titre hiérarchiques (`<h1>`, `<h2>`, etc.) de manière appropriée pour structurer le contenu. ✓
@@ -56,11 +56,11 @@ Voici la liste classée du plus rapide au plus compliqué à réaliser :
 17. **Corriger l'affichage des filtres** ✓
 
 18. **Minification des fichiers CSS et JavaScript** :
-    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement.
+    - Minifier les fichiers CSS et JavaScript pour réduire le temps de chargement. ✓
 
 --------------------------------------------
 
-**Rendre la navigation modale fonctionnelle**
+**Rendre la navigation modale fonctionnelle** ✓
 
 - **Initialisation de l’index à -1**  
   La variable « index » est initialisée à -1 afin de détecter correctement l’index de l'image active dans le tableau (imagesCollection). Si l'image n'est pas trouvée, la fonction quitte sans rien faire.
